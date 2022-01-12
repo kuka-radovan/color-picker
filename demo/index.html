@@ -9,21 +9,10 @@
   </style>
 </head>
 <body>
-  <div id="demo"></div>
+  <color-picker />
 
   <script type="module">
-    import { html, render } from 'lit';
     import '../dist/src/color-picker.js';
-
-    const title = 'Hello owc World!';
-    render(
-      html`
-        <color-picker .title=${title}>
-          some light-dom
-        </color-picker>
-      `,
-      document.querySelector('#demo')
-    );
   </script>
 </body>
 </html>

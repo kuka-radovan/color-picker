@@ -1,18 +1,18 @@
 import { css, CSSResultGroup } from 'lit';
 
 export const style: CSSResultGroup = css`
-    .hue-slider {
+    .base-color__picker--wrapper {
         position: relative;
         border: 1px solid #000;
     }
 
-    .slider {
-        width:6px;
-        height: 30px;
+    .base-color__slider {
+        width: 6px;
         box-sizing: border-box;
         border: 2px solid #000;
         position: absolute;
         top: -5px;
+        left: -3px;
         border-radius: 3px;
         cursor: pointer;
     }
